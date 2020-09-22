@@ -1,0 +1,84 @@
+section{
+	color:red;
+}
+
+article{
+	color:blue;
+}
+/* komentaras */
+*{
+	text-align:center;
+}
+#promo {
+	background-color:blue;
+	color:#fff;
+}
+
+.red {
+	background-color:red;
+}
+.tomato {
+	background-color:tomato;
+}
+.aqua {
+	background-color:aqua;
+}
+.center{
+	text-align:center;
+}
+
+.ad{
+	color:tomato;
+}
+
+a[href="http://www.kitm.lt"]{
+	color:red;
+}
+
+a[href="http://www.ssm.lt"]{
+	color:blue;
+}
+
+a[href="http://www.kaunas.lt"]{
+	color:tomato;
+}
+
+a[href$="docx"] {
+	color:red;
+}
+a[href$="xlsx"] {
+	color:blue;
+}
+a[href$="pptx"] {
+	color:black;
+}
+
+a{
+	color:red;
+}
+
+a:hover{
+	color:blue
+}
+
+ul :hover{
+
+}
+article h2{
+
+}
+article, section{
+	text-align: center;
+}
+
+ul :first-child{
+	background-color:aqua;
+}
+
+ul :last-child{
+	background-color:tomato;
+}
+
+ul :nth-child(2){
+	background-color:black;
+}
